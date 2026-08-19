@@ -1,0 +1,13 @@
+[workspace]
+resolver="3"
+members = ["mizelo","rtp"]
+
+default-members =  ["rtp"]
+
+[workspace.package]
+edition = "2024"
+
+
+[workspace.dependencies]
+tracing = "0.1.44"
+tracing-subscriber = "0.3.23"
